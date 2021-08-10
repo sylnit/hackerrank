@@ -20,5 +20,3 @@ function timeConversion($s)
         return implode(':', $explodedTime);
     }
 }
-
-timeConversion('07:05:45PM');
