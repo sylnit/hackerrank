@@ -5,7 +5,7 @@ def hourglassSum(arr):
         arrLen = len(arr)
         for row in range(4):
             for col in range(4):
-                hg_sum = 0 
+                hg_sum = 0
                 hg_sum += arr[row][col]
                 hg_sum += arr[row][col+1]
                 hg_sum += arr[row][col+2]
@@ -18,10 +18,11 @@ def hourglassSum(arr):
 
 
 hourglassSum([
-    [1, 1, 1, 0, 0, 0], 
-    [0, 1, 0, 0, 0, 0], 
-    [1, 1, 1, 0, 0, 0], 
-    [0, 0, 2, 4, 4, 0], 
-    [0, 0, 0, 2, 0, 0], 
-    [0, 0, 1, 2, 4, 0]]
-    )
+    [1, 1, 1, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0],
+    [1, 1, 1, 0, 0, 0],
+    [0, 0, 2, 4, 4, 0],
+    [0, 0, 0, 2, 0, 0],
+    [0, 0, 1, 2, 4, 0]
+]
+)
